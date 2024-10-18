@@ -32,5 +32,4 @@ test.only('Demo Login Test 3', async({page}) => {
 
   // ---------------------
   await page.close();
-
 })
