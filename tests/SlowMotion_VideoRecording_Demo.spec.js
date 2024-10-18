@@ -15,6 +15,7 @@ test('slow motion and video recording demo', async() => {
             size: {width: 800, height: 600}
         }
     });
+    
     const page = await context.newPage();
     await page.goto('https://admin-demo.nopcommerce.com/login');
     await page.getByLabel('Email:').press('Control+a');
