@@ -16,8 +16,4 @@ test('selector demo', async ({page}) => {
     //#login-button
     
     await page.click('#login-button')
-    
-     
-
-
 });

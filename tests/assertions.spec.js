@@ -47,7 +47,4 @@ test('Assertions Demo', async({page}) => {
      * screenshot metodu ile ilk koşturduğumuzda fail veriyor ve ilk snapshot ı alıyor. 2. run da
      * karşılaştırıyor ve test pass oluyor.
      */
-
-
-
 })

@@ -69,5 +69,4 @@ test('Demo Login Test 1', async ({ page }) => {
    * ancak üç testin toplam koşma süresi config file içindeki timeout u geçerse hata veriyor ve retry 1 ayarlı
    * olduğu için bir kere teyit için koşuyor. default 30*1000 ms olan ayarı 40*1000 e çıkardım sorunsuz geçti.
    */
-
 });

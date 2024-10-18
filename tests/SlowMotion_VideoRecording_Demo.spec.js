@@ -23,5 +23,4 @@ test('slow motion and video recording demo', async() => {
     await page.getByLabel('Password:').fill('admin');
     await page.getByRole('button', { name: 'Log in' }).click();
     await context.close();
-
 })
